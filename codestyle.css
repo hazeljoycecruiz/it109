@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* Variables
+   ============================================== */
+/* placeholder */
+/* buttons */
+/* Mixins
+   ============================================== */
+/* Reset
+   ============================================== */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Common
+   ============================================== */
+html {
+  font-family: "Open Sans";
+  min-height: 50%;
+  min-width: 320px;
+}
+body {
+  background-color: #fff;
+  background: -ms-linear-gradient(top left, #fff 0%, #fff 100%);
+  background: -webkit-linear-gradient(top left, #fff, #fff);
+  background: -o-linear-gradient(top left, #fff, #fff);
+  background: -moz-linear-gradient(top left, #fff, #fff);
+  background: linear-gradient(top left, #fff, #fff);
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  min-width: 50%;
+  min-height: 50%;
+  overflow: scroll;
+  padding: 30px 0;
+}
+.container {
+  display: block;
+  background: #e4e4f1;
+  width: 35%;
+  min-height: 400px;
+  border-radius: 3px;
+  margin: 10px auto;
+  padding: 30px;
+}
+.container h1 {
+  color: #000;
+  font-size: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.container h3 {
+  color: #000;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+
+.container h1:after {
+  display: block;
+  background: #000;
+  content: '';
+  height: 3px;
+  width: 50%;
+  margin: 20px auto 0;
+  padding: 0;
+}
+
+input{
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 5px 10px ; 
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding: 12px 20px 12px 40px;
+   
+  }
+  
+input:focus {
+    width: 100%;
+  }
+
+
+.form {
+  display: block;
+}
+
+.form__buttons {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0 0;
+  background-color: #fd711a;
+  padding-top: 10px;
+  border-radius: 10px;
+ 
+}
+
+.button--primary {
+  background: none;
+  border: none;
+  align-items: center;
+  font-size:18px ;
+  color: #fff;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  width: 17em;
+ margin-top: -0.5em;
+}
+

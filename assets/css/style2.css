@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .row{
+    height: 800px;
+    width: 70%;
+    background: white;
+}
+
+
+
+.section .text-editor{
+    min-height: 130px;
+}
+
+.section .text-editor p,
+.section .text-editor ul,
+.section .text-editor ol {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #37383a;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.section .text-editor ul,
+.section .text-editor ol{
+padding-left: 1rem;
+}
+
+.section .text-editor p{
+    margin-bottom: 24px;
+}
+
+.textarea{
+    width: 74%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+/* password strenght */
+#message {
+    position: absolute;
+    bottom: 245px;
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  #strength {
+    font-weight: bold;
+  }
+  
+  /* Password strength colors */
+  #message {
+    position: absolute;
+    bottom: 245px;
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  #strength {
+    font-weight: bold;
+  }
+  
+  #editor-container {
+    height: 375px;
+  }
+  
+
+  
+  
+  
